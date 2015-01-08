@@ -2,7 +2,7 @@
 	"name" : "multiconvolveDemo",
 	"version" : 1,
 	"creationdate" : -791469612,
-	"modificationdate" : -791466936,
+	"modificationdate" : -791411162,
 	"viewrect" : [ 656.0, 198.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,26 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"demo2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/ferdinandoolivieri/Dropbox/phd/AudioProgramming/MaxMSP/MaxMSP-multiconlvolve-Demo/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"demo3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/ferdinandoolivieri/Dropbox/phd/AudioProgramming/MaxMSP/MaxMSP-multiconlvolve-Demo/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}
@@ -37,6 +57,19 @@
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
+			"CreateStringsForMaxMSP.m" : 			{
+				"kind" : "file",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/ferdinandoolivieri/Dropbox/phd/AudioProgramming/MaxMSP/MaxMSP-multiconlvolve-Demo",
+					"projectrelativepath" : "."
+				}
+
+			}
 
 		}
 
