@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 34.0, 91.0, 1201.0, 670.0 ],
+		"rect" : [ 1280.0, -129.0, 800.0, 529.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,106 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 1363.0, 46.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 80.0, 130.0, 137.0, 20.0 ],
+									"text" : "multiconvolve~ 1 1 zero"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 65.0, 115.0, 137.0, 20.0 ],
+									"text" : "multiconvolve~ 1 1 zero"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 50.0, 100.0, 137.0, 20.0 ],
+									"text" : "multiconvolve~ 1 1 zero"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 337.0, 525.0, 49.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p Conv"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -62,10 +162,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 36,
 					"numoutlets" : 0,
-					"patching_rect" : [ 603.5, 641.0, 37.0, 20.0 ],
-					"text" : "dac~"
+					"patching_rect" : [ 603.5, 641.0, 576.0, 20.0 ],
+					"text" : "dac~ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36"
 				}
 
 			}
@@ -86,7 +186,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
+						"rect" : [ 1502.0, -43.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -405,12 +505,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 12,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.0, 405.0, 114.0, 18.0 ],
-					"text" : "set 1 1 FiltPref_ch1"
+					"patching_rect" : [ 583.0, 405.0, 441.0, 165.0 ],
+					"text" : "set 1 1 FiltPref_ch1, set 2 2 FiltPref_ch2, set 3 3 FiltPref_ch3, set 4 4 FiltPref_ch4, set 5 5 FiltPref_ch5, set 6 6 FiltPref_ch6, set 7 7 FiltPref_ch7, set 8 8 FiltPref_ch8, set 9 9 FiltPref_ch9, set 10 10 FiltPref_ch10, set 11 11 FiltPref_ch11, set 12 12 FiltPref_ch12, set 13 13 FiltPref_ch13, set 14 14 FiltPref_ch14, set 15 15 FiltPref_ch15, set 16 16 FiltPref_ch16, set 17 17 FiltPref_ch17, set 18 18 FiltPref_ch18, set 19 19 FiltPref_ch19, set 20 20 FiltPref_ch20, set 21 21 FiltPref_ch21, set 22 22 FiltPref_ch22, set 23 23 FiltPref_ch23, set 24 24 FiltPref_ch24, set 25 25 FiltPref_ch25, set 26 26 FiltPref_ch26, set 27 27 FiltPref_ch27, set 28 28 FiltPref_ch28, set 29 29 FiltPref_ch29, set 30 30 FiltPref_ch30, set 31 31 FiltPref_ch31, set 32 32 FiltPref_ch32, set 33 33 FiltPref_ch33, set 34 34 FiltPref_ch34, set 35 35 FiltPref_ch35, set 36 36 FiltPref_ch36"
 				}
 
 			}

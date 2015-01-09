@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 95.0, 1201.0, 670.0 ],
+		"rect" : [ 1280.0, -129.0, 800.0, 529.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 611.0, 375.0, 215.0, 18.0 ],
+					"patching_rect" : [ 636.0, 375.0, 215.0, 18.0 ],
 					"text" : "set 1 1 FiltLowPass, set 1 2 FiltHiPass"
 				}
 
